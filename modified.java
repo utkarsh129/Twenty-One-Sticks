@@ -1,5 +1,5 @@
 /*This program is made as per the guidelines made by the college.The original
-code is posted ont he master branch.Thank You.*/
+code is posted ont in the master branch.Thank You.*/
 
 
 
