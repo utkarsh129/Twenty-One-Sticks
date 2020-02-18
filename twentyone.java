@@ -3,18 +3,18 @@ public class Twentyoesticks
 {
 	public static void main(String args[])
 	{
-		  Scanner input=new Scanner(System.in);
+            Scanner input=new Scanner(System.in);
 	    int choice=0;
 	    while(choice!=5)
 	    {
 	        System.out.println("\n 1.PLAY\n2.HELP\n3.ABOUT US\n4.REFERENCE\n.EXIT \n\n ENTER YOUR CHOICE");
 	        choice=input.nextInt();
-	    	  switch(choice)
+	    	    switch(choice)
 	   	    {
 		      		case 1:
 		        		int no_of_sticks=21;
 		       			System.out.println("\n\n Do you want to play first?(Y/N)");
-					      Scanner sc=new Scanner(System.in);
+			                Scanner sc=new Scanner(System.in);
 				        String first_attempt=sc.nextLine();
 				        Scanner read_next=new Scanner(System.in);
 				        int input_num=0;
@@ -43,11 +43,11 @@ public class Twentyoesticks
 				        			if((no_of_sticks-2)%3==0||(no_of_sticks-2)==0)
 				           			{
 				        				input_num=1;
-				            		}
+				                                }
 				           			 else
-				            		{
+				                                 {
 					           			input_num=2;
-	                        		}
+	                                                         }
 				         			System.out.println("\n Your opponent picks "+input_num+" sticks");
 				        			no_of_sticks=no_of_sticks-input_num;
 				        			if(no_of_sticks<=0)
@@ -84,15 +84,14 @@ public class Twentyoesticks
 						            else if(input_num<1)
 						            {
 							            input_num=1;
-							          }
+							    }
 						            no_of_sticks=no_of_sticks-input_num;
 						            if(no_of_sticks<=0)
 						            {
 						       	        System.out.println("\n\n\n YOU HAVE LOST THE GAME\n");
-					              }
-			            		}    
-			        		}
-		        		}
+					                    }
+			                         }    
+			        	}
 		        		break;
 		        
 			        case 2:
